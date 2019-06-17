@@ -18,6 +18,8 @@ public class Creator {
             }
         }
 
+        //create directory
+
         for (File file1 : listFile) {
             int pos = file1.getName().indexOf("_");
             String fileName = file1.getName().substring(pos + 1);
